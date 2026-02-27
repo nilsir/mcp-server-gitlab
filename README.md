@@ -53,7 +53,7 @@
 **Claude Code 命令行添加：**
 
 ```bash
-claude mcp add --scope project gitlab -- npx mcp-server-gitlab
+claude mcp add --scope project gitlab -- npx @nilsir/mcp-server-gitlab
 ```
 
 **或手动配置 `.mcp.json`：**
@@ -63,7 +63,7 @@ claude mcp add --scope project gitlab -- npx mcp-server-gitlab
   "mcpServers": {
     "gitlab": {
       "command": "npx",
-      "args": ["mcp-server-gitlab"],
+      "args": ["@nilsir/mcp-server-gitlab"],
       "env": {
         "GITLAB_TOKEN": "your_token_here",
         "GITLAB_URL": "https://gitlab.example.com"
@@ -76,7 +76,7 @@ claude mcp add --scope project gitlab -- npx mcp-server-gitlab
 ### 方式二：从源码构建
 
 ```bash
-git clone https://github.com/your-org/mcp-server-gitlab.git
+git clone https://github.com/nilsir/mcp-server-gitlab.git
 cd mcp-server-gitlab
 npm install && npm run build
 ```

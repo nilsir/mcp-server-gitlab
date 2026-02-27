@@ -1,5 +1,5 @@
 {
-  "name": "mcp-server-gitlab",
+  "name": "@nilsir/mcp-server-gitlab",
   "version": "1.0.0",
   "description": "GitLab MCP Server - 通过 MCP 协议与 GitLab API 交互",
   "type": "module",
