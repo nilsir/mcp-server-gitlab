@@ -2,6 +2,15 @@
   "name": "@nilsir/mcp-server-gitlab",
   "version": "1.0.0",
   "description": "GitLab MCP Server - 通过 MCP 协议与 GitLab API 交互",
+  "keywords": [
+    "mcp",
+    "gitlab",
+    "model-context-protocol",
+    "claude",
+    "typescript",
+    "llm",
+    "ai"
+  ],
   "type": "module",
   "main": "dist/index.js",
   "bin": {
